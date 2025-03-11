@@ -1,0 +1,10 @@
+# CryptoMarketDevelopments Crew Requirements
+flask>=3.1.0
+
+## Dependencies
+python-dotenv>=1.0.0 #https:// pip Pypi link for environment variables
+
+# react-router-dom>=6.0.0 #https:// pip Pypi link for React Router
+
+## Build Tools
+# web-vitals>=5.0.0 # Testing library for performance metrics.

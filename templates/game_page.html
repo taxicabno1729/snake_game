@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        
+        canvas {
+            border: 2px solid #333;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .info {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Snake Game</h1>
+    </div>
+
+    <div class="info">
+        <p>Use arrow keys to control the snake</p>
+        <p>Collect the red food to grow and score points</p>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Game initialization code here
+    </script>
+</body>
+</html>
