@@ -1,4 +1,4 @@
-# CryptoMarketDevelopments Snake Game Documentation
+# Snake Game Documentation
 
 ## Setup Requirements
 
